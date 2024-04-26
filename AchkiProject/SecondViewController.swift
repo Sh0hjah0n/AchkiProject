@@ -10,6 +10,7 @@ import UIKit
 class SecondViewController: UIViewController {
 
     let button = UIButton()
+    let mainView = UIView()
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .gray
@@ -17,6 +18,10 @@ class SecondViewController: UIViewController {
         button.frame.size = view.frame.size
         button.setTitle("Register", for: .normal)
         button.setTitleColor(.black, for: .normal)
+        
+        view.addSubview(mainView)
+        mainView.frame.size = view.frame.size
+        mainView.backgroundColor = .brown
         // Do any additional setup after loading the view.
     }
     
