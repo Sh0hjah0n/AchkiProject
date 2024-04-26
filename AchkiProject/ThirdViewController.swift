@@ -9,6 +9,7 @@ import UIKit
 
 class ThirdViewController: UIViewController {
 
+    let mainView = UIView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
