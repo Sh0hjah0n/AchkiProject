@@ -9,9 +9,11 @@ import UIKit
 
 class ThirdViewController: UIViewController {
 
+    let mainView = UIView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
+        view.backgroundColor = .blue
         // Do any additional setup after loading the view.
     }
     

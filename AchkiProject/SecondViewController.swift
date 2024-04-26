@@ -9,6 +9,7 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    let button = UIButton()
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .gray
