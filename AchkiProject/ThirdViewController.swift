@@ -20,7 +20,7 @@ class ThirdViewController: UIViewController {
 
         view.addSubview(button)
         button.frame.size = view.frame.size
-        button.setTitle("Sign in", for: .normal)
+        button.setTitle("Sign up", for: .normal)
         button.setTitleColor(.black, for: .normal)
         // Do any additional setup after loading the view.
     }
