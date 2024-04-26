@@ -16,7 +16,7 @@ class SecondViewController: UIViewController {
         view.backgroundColor = .gray
         view.addSubview(button)
         button.frame.size = view.frame.size
-        button.setTitle("Register", for: .normal)
+        button.setTitle("Delete", for: .normal)
         button.setTitleColor(.black, for: .normal)
         
         view.addSubview(mainView)
