@@ -14,6 +14,9 @@ class ThirdViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .blue
+        mainView.backgroundColor = .red
+        mainView.frame.size = view.frame.size
+
         // Do any additional setup after loading the view.
     }
     
