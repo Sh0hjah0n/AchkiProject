@@ -10,10 +10,15 @@ import UIKit
 class ThirdViewController: UIViewController {
 
     let mainView = UIView()
-    
+    let button = UIButton()
+
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .blue
+        view.addSubview(button)
+        button.frame.size = view.frame.size
+        button.setTitle("Sign in", for: .normal)
+        button.setTitleColor(.black, for: .normal)
         // Do any additional setup after loading the view.
     }
     
