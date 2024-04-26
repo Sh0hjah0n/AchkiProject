@@ -15,6 +15,9 @@ class ThirdViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .blue
+        mainView.backgroundColor = .red
+        mainView.frame.size = view.frame.size
+
         view.addSubview(button)
         button.frame.size = view.frame.size
         button.setTitle("Sign in", for: .normal)
