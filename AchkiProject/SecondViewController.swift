@@ -22,7 +22,7 @@ class SecondViewController: UIViewController {
         view.addSubview(mainView)
         mainView.frame.size = view.frame.size
         mainView.backgroundColor = .brown
-        // Do any additional setup after loading the view.
+        
     }
 
 }
